@@ -1,6 +1,6 @@
 # Module Project: Forms - Team Builder
 
-This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored Form management in React. You learned about controled inputs, semantic HTML, some ES6 tools like the spread operator and computer properties, and synthetic events. In your project you will demonstrate proficiency of these subjects and principles by creating an application using each of these.
+This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored Form management in React. You learned about controlled inputs, semantic HTML, some ES6 tools like the spread operator and computer properties, and synthetic events. In your project you will demonstrate proficiency of these subjects and principles by creating an application using each of these.
 
 ## Instructions
 
@@ -12,15 +12,15 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
 ### Description
 
-In this project you'll build an app that will keep track of memebers of a team. You'll be able to add members to this team as well as edit their details.
+In this project you'll build an app that will keep track of members of a team. You'll be able to add members to this team as well as edit their details.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd american-football-scoreboard`
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal
+- [x] CD into the project base directory `cd american-football-scoreboard`
+- [x] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
