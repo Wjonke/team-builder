@@ -1,9 +1,7 @@
-
-
 import React from 'react';
 import TeamList from '../TeamList';
 import TeamMember from'./TeamMember';
-
+// import AddForm from './AddForm'
 
 const TeamMembers = (props) => {
 
@@ -25,6 +23,7 @@ const TeamMembers = (props) => {
               />
             );
           })}
+          
         </div>
     </div>
   )

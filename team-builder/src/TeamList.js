@@ -1,9 +1,10 @@
 
 let TeamList = [ 
+
   {
     name :'Lucy Smith',
     age : '34',
-    team : 'Field Services Dept'
+    team : ' Services Dept'
   },
   {
     name :'Wes Jonke',
@@ -13,10 +14,12 @@ let TeamList = [
   {
     name :'Sam Adams',
     age : '27',
-    team : 'Field Services Dept'
+    team : ' Services Dept'
   }
 
-
 ] 
+
+
+
 
 export default TeamList
