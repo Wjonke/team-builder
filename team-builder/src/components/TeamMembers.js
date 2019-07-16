@@ -1,19 +1,20 @@
 import React from 'react';
-import TeamList from '../TeamList';
+
 import TeamMember from'./TeamMember';
 // import AddForm from './AddForm'
 
-const TeamMembers = (props) => {
+const TeamMembers = ({teamMembers,setTeamMembers}) => {
 
-  
+  console.log(teamMembers)
   return (
+
 
 
     <div>
       <h1 style={titleStyle} >Current Team Members</h1>
       
         <div style={listStyle}>
-          {TeamList.map ((Member, i) => {
+          {teamMembers.map ((Member, i) => {
             return (
               <TeamMember
                 key={i}
@@ -28,6 +29,10 @@ const TeamMembers = (props) => {
     </div>
   )
 }
+
+
+
+
 
 
 const listStyle={

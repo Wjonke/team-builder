@@ -1,9 +1,7 @@
 import React, {useState} from 'react'
-import TeamList from '../TeamList';
 
 
-
-const AddForm = (props) => {
+const AddForm = ({teamMembers, setTeamMembers}) => {
 //////////////////State setup///////////////////////
 
 
@@ -29,19 +27,15 @@ const changeHandler = event => {
 
   const submitHandler = event => {
     event.preventDefault();
-    let NewTeamMember ={
-      name: formState.name,
-      age: formState.age,
-      team: formState.team,    
-    }
-// console.log(NewTeamMember);
+  
+setTeamMembers([...teamMembers,formState])
     
-    TeamList.push({
-      name:NewTeamMember.name,
-      age:NewTeamMember.age,
-      team:NewTeamMember.team,
-    })
-console.log(TeamList);
+//     TeamList.push({
+//       name:NewTeamMember.name,
+//       age:NewTeamMember.age,
+//       team:NewTeamMember.team,
+//     })
+// // console.log(TeamList);
 
     setFormState({
       name: "",
@@ -49,8 +43,6 @@ console.log(TeamList);
       team: "",
     })
   };
-
-
 
 ///////////////////helper functions/////////////////
 
@@ -100,6 +92,9 @@ console.log(TeamList);
     </div>
   )
 }
+
+
+
 
 
 
